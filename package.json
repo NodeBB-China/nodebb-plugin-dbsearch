@@ -1,11 +1,11 @@
 {
-  "name": "nodebb-plugin-dbsearch",
-  "version": "2.0.2",
-  "description": "A Plugin that let's users search posts and topics",
+  "name": "nodebb-plugin-dbsearch-chinese-edition",
+  "version": "0.0.1",
+  "description": "可以让你搜索帖子或回复（支持中文，基于DB Search）",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/barisusakli/nodebb-plugin-dbsearch"
+    "url": "https://github.com/NodeBB-China/nodebb-plugin-dbsearch-chinese-edition.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,12 +15,16 @@
     "plugin",
     "search"
   ],
-  "author": "Baris Usakli <baris@designcreateplay.com>",
+  "author": "A632079 <a632079@qq.com>",
   "license": "BSD-2-Clause",
   "dependencies": {
     "async": "2.1.4",
     "redisearch": "^0.0.6",
-    "winston": "2.3.1"
+    "winston": "2.3.1",
+    "tencent-nlp":"",
+    "ltp-cloud":"",
+    "bosonnlp":"",
+    "nodejieba":""
   },
   "nbbpm": {
     "compatibility": "^1.5.0"
